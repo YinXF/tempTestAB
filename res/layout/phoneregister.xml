@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:background="#efeff4"  
+    android:orientation="vertical" >  
+    
+	<RelativeLayout  
+        android:id="@+id/editRel"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content" >  
+  
+        <RelativeLayout  
+            android:id="@+id/accountRel"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="14dp"  
+            android:background="#FFFFFF"  
+            android:clickable="true"  
+            android:gravity="center_vertical" >  
+  
+            <TextView  
+                android:id="@+id/account"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:padding="8dp"  
+                android:text="手机号码："  
+                android:textColor="#000"  
+                android:textSize="17sp" />  
+  
+            <EditText  
+                android:id="@+id/accountEdittext"  
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_centerVertical="true"  
+                android:layout_marginLeft="20dip"  
+                android:layout_toRightOf="@id/account"  
+                android:background="@null"  
+                android:hint="移动/联通/电信"  
+                android:textSize="15sp" />  
+        </RelativeLayout>  
+  
+        <RelativeLayout  
+            android:id="@+id/pwdRel"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_below="@id/accountRel"  
+            android:background="#FFFFFF"  
+            android:clickable="true"  
+            android:gravity="center_vertical" >  
+  
+            <TextView  
+                android:id="@+id/pwd"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:padding="8dp"  
+                android:text="密       码："  
+                android:textColor="#000"  
+                android:textSize="17sp" />  
+  
+            <EditText  
+                android:id="@+id/pwdEdittext"  
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_centerVertical="true"  
+                android:layout_marginLeft="20dip"  
+                android:layout_toRightOf="@id/pwd"  
+                android:background="@null"  
+                android:hint="请输入密码"  
+                android:textSize="15sp" />  
+        </RelativeLayout>  
+         <RelativeLayout  
+            android:id="@+id/pwdAgainRel"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_below="@id/pwdRel"  
+            android:background="#FFFFFF"  
+            android:clickable="true"  
+            android:gravity="center_vertical" >  
+  
+            <TextView  
+                android:id="@+id/pwdAgain"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:padding="8dp"  
+                android:text="密码确认："  
+                android:textColor="#000"  
+                android:textSize="17sp" />  
+  
+            <EditText  
+                android:id="@+id/pwdAgainEdittext"  
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_centerVertical="true"  
+                android:layout_marginLeft="20dip"  
+                android:layout_toRightOf="@id/pwdAgain"  
+                android:background="@null"  
+                android:hint="请再次输入密码"  
+                android:textSize="15sp" />  
+        </RelativeLayout> 
+        
+          <RelativeLayout  
+            android:id="@+id/UserNameRel"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_below="@id/pwdAgainRel"  
+            android:background="#FFFFFF"  
+            android:clickable="true"  
+            android:gravity="center_vertical" >  
+  
+            <TextView  
+                android:id="@+id/txtUserName"  
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:padding="8dp"  
+                android:text="用  户 名："  
+                android:textColor="#000"  
+                android:textSize="17sp" />  
+  
+            <EditText  
+                android:id="@+id/editUserName"  
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_centerVertical="true"  
+                android:layout_marginLeft="20dip"  
+                android:layout_toRightOf="@id/txtUserName"  
+                android:background="@null"  
+                android:hint="请输入用户名"  
+                android:textSize="15sp" />  
+        </RelativeLayout>
+    </RelativeLayout>  
+    <Button  
+        android:id="@+id/btn_phoneRegister"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:layout_marginLeft="20dip"  
+         android:layout_marginRight="20dip"  
+        android:text="下一步"  
+        android:textColor="#0983d9" />  
+</LinearLayout>

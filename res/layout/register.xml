@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >  
+  
+    <LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="50dp"  
+        android:background="#bed1e4"  
+        android:gravity="center_vertical"  
+        android:orientation="horizontal" >  
+  
+        <Button  
+            android:id="@+id/login_in"  
+            android:layout_width="65.83dp"  
+            android:layout_height="30.5dp"  
+            android:layout_marginRight="10dp"  
+            android:background="#bed1e4"  
+            android:text="Cancel"  
+            android:textColor="#495a6a" />  
+  
+        <TextView  
+            android:id="@+id/tv_friend_title"  
+            android:layout_width="wrap_content"  
+            android:layout_height="50dip"  
+            android:layout_weight="1"  
+            android:gravity="center"  
+            android:text="用户注册"  
+            android:textColor="#000000"  
+            android:textSize="20dip" />  
+  
+        <Button  
+            android:id="@+id/login_in"  
+            android:layout_width="65.83dp"  
+            android:layout_height="30.5dp"  
+            android:layout_marginRight="10dp"  
+            android:background="#bed1e4"  
+            android:text="login_in"  
+            android:textColor="#495a6a" />  
+    </LinearLayout>  
+    
+     <RelativeLayout  
+        android:id="@+id/RegisterModel2"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content" >  
+  
+     <TextView  
+        android:id="@+id/txtRegisterFirst"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:padding="8dp"  
+        android:text="欢迎注册TestAB"  
+        android:textColor="#282828"  
+        android:textSize="17sp" />  
+      <TextView  
+        android:id="@+id/txtRegisterSecond"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:padding="8dp"  
+        android:text="您可以选择以下方式进行注册:"  
+        android:textColor="#a2a2a2"  
+        android:textSize="17sp"
+        android:layout_below="@id/txtRegisterFirst" />  
+  
+      </RelativeLayout>  
+      
+      <RelativeLayout  
+        android:id="@+id/RegisterModel3"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content" >  
+  
+     <Button   
+        android:id="@+id/btnEmail"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:padding="8dp"  
+        android:text="邮箱注册的导航图 ImageButton ——>"  
+        android:textColor="#282828"  
+        android:gravity="center_horizontal"
+        android:textSize="17sp" />  
+      <Button  
+        android:id="@+id/btnMessage"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:padding="8dp"  
+        android:text="短信注册的导航图 ImageButton ——>"  
+        android:textColor="#282828"  
+        android:textSize="17sp"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/btnEmail" />  
+  
+      </RelativeLayout>  
+  
+    </LinearLayout>
